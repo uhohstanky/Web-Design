@@ -1,0 +1,49 @@
+body {
+    background-color: #333333;
+    color: #eaeaea;
+}
+
+#gallery {
+    position: relative;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: 0.25;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border: none;
+}
+
+#gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px; left: 320px;
+    text-align: center; opacity: 1;
+}
