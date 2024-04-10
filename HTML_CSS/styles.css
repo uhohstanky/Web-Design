@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #fab66b
+}
+
+p {
+    color:navy;
+}
+
+.testing {
+    font-weight: bold;
+    background: yellow;
+}
+
+#IDSel {
+    background-color: #dbd9d9;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* comment test */
