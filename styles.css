@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
