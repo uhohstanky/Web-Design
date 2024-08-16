@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a:hover {
+    font-weight: bold;
+    color:white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:grey
+}
