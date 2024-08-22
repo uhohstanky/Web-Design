@@ -13,3 +13,8 @@ a:hover {
 a:visited {
     color:grey
 }
+
+h1 {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
